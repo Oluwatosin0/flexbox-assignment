@@ -1,0 +1,77 @@
+.flex-container {
+    display: flex;
+    background-color: #ffffff;
+    width: 1500px;
+    height: 900px;
+    justify-content: center;
+    align-items: center;
+  }
+  div h1{
+    color: #ffffff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  #color1
+  input[type=submit]{
+    width: 80px;;
+    background-color: #f1f1f1 ;
+    color: rgba(247, 111, 15, 0.856);
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 18px;
+    cursor: pointer;
+  }
+  .A{
+    background-color: rgba(247, 111, 15, 0.856);
+    color: white;
+    width: 250px;
+    height: 400px;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 10px 0 0 10px;
+  }
+  #color2
+  input[type=submit]{
+    width: 80px;;
+    background-color: #f1f1f1 ;
+    color: darkcyan;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 18px;
+    cursor: pointer;
+  }
+  .B{
+    background-color: darkcyan ;
+    color: white;
+    width: 250px;
+    height: 400px;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 0;
+  }
+  #color3
+  input[type=submit]{
+    width: 80px;;
+    background-color: #f1f1f1 ;
+    color: darkslategray;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 18px;
+    cursor: pointer;
+  }
+  .C{
+    background-color: darkslategrey;
+    color: white;
+    width: 250px;
+    height: 400px;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 0 10px 10px 0;
+  }
+  @media screen{
+    body{
+      background-color: #ffffff;
+    }
+  }
